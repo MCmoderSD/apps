@@ -260,13 +260,6 @@ questions:
           schema:
             type: boolean
             default: false
-        - variable: host_network
-          label: Host Network
-          description: |
-            Bind to the host network. It's recommended to keep this disabled.
-          schema:
-            type: boolean
-            default: false
 
   - variable: storage
     label: ""
